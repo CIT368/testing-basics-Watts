@@ -51,4 +51,9 @@
    //Anticipated result is for strb.toString() to equal "1231231234
    
    //@Test 2 Fuzz Test
-   //Let str = "arjgn'WE3IT[H  I321h NW"( Literally just rubbed my hand over the keyboard
+   //Let str = "arjgn'WE3IT[H  I321h NW"( Literally just rubbed my hand over the keyboard)
+   //the code as provided will not produce a phone number as it does not validate the input before attempting to 
+   //process it
+   //@Test 3 Overload test
+   //let str= "123456789101112"
+   //Code will not break, but will still not be a valid phone number
